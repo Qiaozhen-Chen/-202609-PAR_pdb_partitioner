@@ -1,0 +1,37 @@
+﻿output_serial,input_serial,atom_name,element,pdb_residue_index,pdb_residue_name,group_index,group_name,chain,segment_id,description
+1,36,C1T,C,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+2,35,C2T,C,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+3,33,C3T,C,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+4,32,C4T,C,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+5,34,C5T,C,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+6,16,O1T,O,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+7,14,O2T,O,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+8,12,O3T,O,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+9,11,O4T,O,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+10,9,O5T,O,1,PAR,1,RBT,A,PAR,terminal ribose / 末端核糖
+11,13,O1P1,O,1,PAR,2,P01,A,PAR,terminal-side phosphate / 末端侧磷酸
+12,15,O2P1,O,1,PAR,2,P01,A,PAR,terminal-side phosphate / 末端侧磷酸
+13,7,OPB,O,1,PAR,2,P01,A,PAR,terminal-side phosphate / 末端侧磷酸
+14,2,P1,P,1,PAR,2,P01,A,PAR,terminal-side phosphate / 末端侧磷酸
+15,8,O1P2,O,1,PAR,3,P02,A,PAR,adenosine-side phosphate / 腺苷侧磷酸
+16,10,O2P2,O,1,PAR,3,P02,A,PAR,adenosine-side phosphate / 腺苷侧磷酸
+17,1,P2,P,1,PAR,3,P02,A,PAR,adenosine-side phosphate / 腺苷侧磷酸
+18,24,C1A,C,1,PAR,4,RBA,A,PAR,adenosine ribose / 腺苷核糖
+19,22,C2A,C,1,PAR,4,RBA,A,PAR,adenosine ribose / 腺苷核糖
+20,23,C3A,C,1,PAR,4,RBA,A,PAR,adenosine ribose / 腺苷核糖
+21,25,C4A,C,1,PAR,4,RBA,A,PAR,adenosine ribose / 腺苷核糖
+22,26,C5A,C,1,PAR,4,RBA,A,PAR,adenosine ribose / 腺苷核糖
+23,4,O2A,O,1,PAR,4,RBA,A,PAR,adenosine ribose / 腺苷核糖
+24,5,O3A,O,1,PAR,4,RBA,A,PAR,adenosine ribose / 腺苷核糖
+25,3,O4A,O,1,PAR,4,RBA,A,PAR,adenosine ribose / 腺苷核糖
+26,6,O5A,O,1,PAR,4,RBA,A,PAR,adenosine ribose / 腺苷核糖
+27,31,C2,C,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
+28,27,C4,C,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
+29,29,C5,C,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
+30,30,C6,C,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
+31,28,C8,C,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
+32,20,N1,N,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
+33,19,N3,N,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
+34,21,N6,N,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
+35,18,N7,N,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
+36,17,N9,N,1,PAR,5,ADE,A,PAR,adenine / 腺嘌呤碱基
