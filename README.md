@@ -27,6 +27,7 @@ Atom names remain unique within the PAR residue. The two phosphorus atoms are na
 Python 3.9 or later is required. No third-party packages are needed.
 
 You can also use the command line:
+
 python adpr_partition.py /test/atom_order_1.pdb -o PAR1.pdb
 
 To use another ADPR file as a reference and verify that differently ordered inputs have the same standardized bond topology.
