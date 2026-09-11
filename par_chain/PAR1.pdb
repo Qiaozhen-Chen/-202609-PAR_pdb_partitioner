@@ -1,0 +1,78 @@
+REMARK 900 ONE MONOMER: RESIDUE PAR, CHAIN A, RESSEQ 1
+REMARK 900 TOPOLOGY GROUPS 1 RBT, 2 P01, 3 P02, 4 RBA, 5 ADE
+REMARK 900 GROUP MEMBERSHIP IS RECORDED IN THE COMPANION CSV
+REMARK 900 P-O-P BRIDGE O (INPUT SERIAL 7) IS ASSIGNED TO P01
+REMARK 900 SOURCE atom_order_1.pdb
+HETATM    1  C1T PAR A   1      -2.316   6.650   1.112  0.00  0.00      PAR  C  
+HETATM    2  C2T PAR A   1      -3.422   6.962   2.090  0.00  0.00      PAR  C  
+HETATM    3  C3T PAR A   1      -3.578   5.670   2.867  0.00  0.00      PAR  C  
+HETATM    4  C4T PAR A   1      -3.019   4.644   1.898  0.00  0.00      PAR  C  
+HETATM    5  C5T PAR A   1      -4.064   4.177   0.886  0.00  0.00      PAR  C  
+HETATM    6  O1T PAR A   1      -2.770   6.664  -0.231  0.00  0.00      PAR  O  
+HETATM    7  O2T PAR A   1      -3.063   7.999   2.967  0.00  0.00      PAR  O  
+HETATM    8  O3T PAR A   1      -2.759   5.728   4.013  0.00  0.00      PAR  O  
+HETATM    9  O4T PAR A   1      -1.956   5.299   1.261  0.00  0.00      PAR  O  
+HETATM   10  O5T PAR A   1      -3.407   3.611  -0.219  0.00  0.00      PAR  O  
+HETATM   11 O1P1 PAR A   1      -3.729   4.109  -2.591  0.00  0.00      PAR  O  
+HETATM   12 O2P1 PAR A   1      -5.696   3.420  -1.431  0.00  0.00      PAR  O  
+HETATM   13  OPB PAR A   1      -4.015   1.542  -1.979  0.00  0.00      PAR  O  
+HETATM   14  P1  PAR A   1      -4.261   3.036  -1.479  0.00  0.00      PAR  P  
+HETATM   15 O1P2 PAR A   1      -2.593   0.726   0.158  0.00  0.00      PAR  O  
+HETATM   16 O2P2 PAR A   1      -1.402   1.636  -1.753  0.00  0.00      PAR  O  
+HETATM   17  P2  PAR A   1      -2.657   0.893  -1.466  0.00  0.00      PAR  P  
+HETATM   18  C1A PAR A   1      -0.351  -4.552  -3.036  0.00  0.00      PAR  C  
+HETATM   19  C2A PAR A   1      -1.142  -4.744  -1.746  0.00  0.00      PAR  C  
+HETATM   20  C3A PAR A   1      -1.473  -3.325  -1.350  0.00  0.00      PAR  C  
+HETATM   21  C4A PAR A   1      -1.598  -2.674  -2.712  0.00  0.00      PAR  C  
+HETATM   22  C5A PAR A   1      -1.504  -1.158  -2.655  0.00  0.00      PAR  C  
+HETATM   23  O2A PAR A   1      -2.351  -5.416  -2.012  0.00  0.00      PAR  O  
+HETATM   24  O3A PAR A   1      -2.681  -3.272  -0.635  0.00  0.00      PAR  O  
+HETATM   25  O4A PAR A   1      -0.552  -3.216  -3.464  0.00  0.00      PAR  O  
+HETATM   26  O5A PAR A   1      -2.495  -0.703  -1.770  0.00  0.00      PAR  O  
+HETATM   27  C2  PAR A   1       2.146  -7.902  -3.860  0.00  0.00      PAR  C  
+HETATM   28  C4  PAR A   1       1.613  -5.954  -3.164  0.00  0.00      PAR  C  
+HETATM   29  C5  PAR A   1       2.890  -5.771  -2.780  0.00  0.00      PAR  C  
+HETATM   30  C6  PAR A   1       3.782  -6.755  -2.983  0.00  0.00      PAR  C  
+HETATM   31  C8  PAR A   1       1.907  -4.074  -2.295  0.00  0.00      PAR  C  
+HETATM   32  N1  PAR A   1       3.368  -7.821  -3.533  0.00  0.00      PAR  N  
+HETATM   33  N3  PAR A   1       1.239  -7.030  -3.708  0.00  0.00      PAR  N  
+HETATM   34  N6  PAR A   1       4.982  -6.577  -2.619  0.00  0.00      PAR  N  
+HETATM   35  N7  PAR A   1       3.046  -4.626  -2.256  0.00  0.00      PAR  N  
+HETATM   36  N9  PAR A   1       1.073  -4.861  -2.829  0.00  0.00      PAR  N  
+CONECT    1    2    6    9
+CONECT    2    1    3    7
+CONECT    3    2    4    8
+CONECT    4    3    5    9
+CONECT    5    4   10
+CONECT    6    1
+CONECT    7    2
+CONECT    8    3
+CONECT    9    1    4
+CONECT   10    5   14
+CONECT   11   14
+CONECT   12   14
+CONECT   13   14   17
+CONECT   14   10   11   12   13
+CONECT   15   17
+CONECT   16   17
+CONECT   17   13   15   16   26
+CONECT   18   19   25   36
+CONECT   19   18   20   23
+CONECT   20   19   21   24
+CONECT   21   20   22   25
+CONECT   22   21   26
+CONECT   23   19
+CONECT   24   20
+CONECT   25   18   21
+CONECT   26   17   22
+CONECT   27   32   33
+CONECT   28   29   33   36
+CONECT   29   28   30   35
+CONECT   30   29   32   34
+CONECT   31   35   36
+CONECT   32   27   30
+CONECT   33   27   28
+CONECT   34   30
+CONECT   35   29   31
+CONECT   36   18   28   31
+END
