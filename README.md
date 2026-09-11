@@ -26,7 +26,7 @@ Atom names remain unique within the PAR residue. The two phosphorus atoms are na
 
 Python 3.9 or later is required. No third-party packages are needed.
 
-You can also use the command line:
+You can use the command line:
 
 `python adpr_partition.py /test/atom_order_1.pdb -o /test/PAR1.pdb`
 
@@ -35,3 +35,11 @@ To use another ADPR file as a reference and verify that differently ordered inpu
 This check compares the bond sets between standardized atom names and the atom counts in the five groups. It does not compare original serial numbers, input ordering, or three-dimensional orientation. If the topologies differ, the tool lists the missing or extra standardized bonds.
 
 If the input contains `CONECT` records, the tool uses them preferentially. Otherwise, it infers bonds from element-specific covalent radii and interatomic distances. The tool validates the two phosphorus atoms, the P–O–P bridge, two five-membered ribose rings, and one adenine topology. If the structure does not match, it reports an error rather than silently generating an incorrect partition.
+
+## Supplement
+
+After you get the standardized bond topology PDB file of ADPR monomer, you still want to build PAR chain with different number of ADPR. You can also use the command line:
+
+Python 3.7 or later is required. No third-party packages are needed.
+
+`python par_chain.py /par_chain/PAR1.pdb -n 16 -o /par_chain/PAR16.pdb`
